@@ -1,6 +1,6 @@
-# Home Work Explaination
+# CI/CD Scripts Explaination
 
-I wrote some scripts to accomplish the Homework. Describes below are some kind of Usage of these scripts.
+Describes below are some kind of Usage of these scripts.
 
 Assume that we have 4 environments for the product developing lifecycle:
 
