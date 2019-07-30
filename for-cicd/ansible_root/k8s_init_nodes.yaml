@@ -1,0 +1,11 @@
+- name: k8s node init
+  gather_facts: no
+  user: root
+  hosts: all
+  tasks:
+
+    - name: "install docker-ce"
+      script: install_docker.sh
+
+    - name: "init k8s node"
+      script: k8s_node_init.sh {{ masters_ip }} 
